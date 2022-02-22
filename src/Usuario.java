@@ -16,5 +16,9 @@ public class Usuario {
     private static  final String SQL_INSERT_2 = "INSERT INTO USUARIO (ID, NOME, SOBRENOME, IDADE, EMAIL) VALUES (1, 'Pablo', 'Medeiros', 22, 'pablo.medeiros@gmail.com')";
     private static  final String SQL_INSERT_3 = "INSERT INTO USUARIO (ID, NOME, SOBRENOME, IDADE, EMAIL) VALUES (1, 'Jão', 'Pedro', 19, 'joaopedro01@gmail.com')";
 
+    // read
+    private static final String SQL_SELECT = "SELECT * FROM USUARIO";
+
+
 
 }
